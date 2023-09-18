@@ -7,7 +7,7 @@
 
 <div class="grid">
 	{#each articles as article}
-		<article class="article">
+		<article>
 			<header><strong>{article.title}</strong></header>
 			<img class="article-image" src={article.image} alt={article.imageAlt} />
 			<footer>
@@ -19,9 +19,6 @@
 </div>
 
 <style>
-	.article {
-		cursor: pointer;
-	}
 	.article-image {
 		height: auto;
 		max-width: 100%;
