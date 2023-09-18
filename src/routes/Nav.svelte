@@ -1,4 +1,4 @@
-<nav>
+<nav class="nav">
 	<ul>
 		<li>
 			<hgroup>
@@ -8,3 +8,9 @@
 		</li>
 	</ul>
 </nav>
+
+<style>
+	.nav{
+		padding-left: 1rem;
+	}
+</style>
