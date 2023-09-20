@@ -14,7 +14,7 @@
 		},
 		{
 			title: 'Hash Tables',
-			description: 'The data strcuture thats used everywhere, learn about hashing and collisions.',
+			description: "The data strcuture that's used everywhere, learn about hashing and collisions.",
 			image: hashTablesImage,
 			imageCaption: 'AI Prompt: "Data table from computing with cartoon like symbols like batman and rick astley."',
 			imageAlt: 'Hash Tables',
