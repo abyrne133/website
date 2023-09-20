@@ -1,14 +1,12 @@
 <article>
 	<h3>Big O Notation</h3>
-	<article>
-		<h6>Why is it useful?</h6>
-		<p>Categorise and compare the efficiency of algorithms as the input scales up.</p>
-		<ul>
-			<li>consider time and space (memory) efficiency</li>
-			<li>consider trade offs between time and space efficiency</li>
-			<li>interested in behaviour for very large inputs</li>
-		</ul>
-	</article>
+	<h6>Why is it useful?</h6>
+	<p>Categorise and compare the efficiency of algorithms as the input scales up.</p>
+	<ul>
+		<li>consider time and space (memory) efficiency</li>
+		<li>consider trade offs between time and space efficiency</li>
+		<li>interested in behaviour for very large inputs</li>
+	</ul>
 	<article>
 		<h6>Simplified Time Example</h6>
 		<p>
@@ -25,27 +23,24 @@
 			some large input the linear (network) runtime will exceed the constant (walking) runtime.
 		</p>
 	</article>
-	<article>
-		<p>There are different measurements of efficiency to consider:</p>
-		<ul>
-			<li>
-				<strong>Best Case</strong> describes the runtime in the best edge case input scenario, usually
-				not considered.
-			</li>
-			<li><strong>Worst Case</strong> for unlucky inputs! Needs to be considered.</li>
-			<li><strong>Expected Case</strong> describes what usually happens. Interested.</li>
-		</ul>
-	</article>
-	<article>
-		<h6>Amortized Time</h6>
-		<p>
-			Some algorithms will deviate from the expected runtime but in known situations. When a java
-			ArrayList gets full, the library creates a new array with double the size and copies the
-			records over. This is an example of a space-time trade off or balance. Space is saved when the
-			arrary is not full, but time is lost upon creating a larger array and copying over.
-		</p>
-	</article>
-	<article><h6>Space Complexity</h6></article>
+	<p>There are different measurements of efficiency to consider:</p>
+	<ul>
+		<li>
+			<strong>Best Case</strong> describes the runtime in the best edge case input scenario, usually
+			not considered.
+		</li>
+		<li><strong>Worst Case</strong> for unlucky inputs! Needs to be considered.</li>
+		<li><strong>Expected Case</strong> describes what usually happens. Interested.</li>
+	</ul>
+	<h6>Amortized Time</h6>
+	<p>
+		Some algorithms will deviate from the expected runtime but in known situations. When a java
+		ArrayList gets full, the library creates a new array with double the size and copies the records
+		over. This is an example of a space-time trade off or balance. Space is saved when the arrary is
+		not full, but time is lost upon creating a larger array and copying over.
+	</p>
+	<h6>Space Complexity</h6>
+	TODOOOOO
 	<p>
 		It get's harder, because measurements can be applied to different actions like sorting,
 		inserting, searching..! One approach is to practice classifiying the time and space complexity
