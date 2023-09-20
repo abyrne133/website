@@ -8,13 +8,12 @@
 <div class="articles">
 	{#each articles as article}
 		<article>
-			<header><strong>{article.title}</strong>
-			</header>
+			<h3>{article.title}</h3>
 			<figure>
 				<img class="article-image" src={article.image} alt={article.imageAlt} />
 				<figcaption class="caption">{article.imageCaption}</figcaption>
 			</figure>
-			<footer>
+			<footer class="article-footer">
 				<p>{article.description}</p>
 				<a class="article-button" href={article.link} role="button">{article.buttonText}</a>
 			</footer>
@@ -33,10 +32,13 @@
 		height: auto;
 		max-width: 100%;
 	}
-	.caption{
+	.caption {
 		font-size: 0.8rem;
 		font-style: italic;
 		text-align: justify;
+	}
+	.article-footer{
+		min-height: 200px;
 	}
 	.article-button {
 		display: block;
