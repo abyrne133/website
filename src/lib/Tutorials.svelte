@@ -25,5 +25,5 @@
 	];
 </script>
 
-<p>AI generated images are used because AI AI AI, the description used to generate each image is provided in the captions.</p>
+<p>AI generated images are used because let's follow the hype, the description used to generate each image is provided in the captions - for the excitement.</p>
 <Articles {articles} />
