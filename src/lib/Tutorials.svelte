@@ -7,7 +7,7 @@
 			description: 'Learn how to classify the efficiency of your algorightms with Big O Notation.',
 			image: bigOImage,
 			imageAlt: 'Big O Notation',
-            link: 'abc',
+            link: 'big-o',
             buttonText: 'Show More'
 		},
 	];
